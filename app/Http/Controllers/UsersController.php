@@ -17,6 +17,6 @@ class UsersController extends Controller {
         $user = new User;
         $user->fill($input);
         $user->save();
-        echo json_encode(array('response'=>'Successfully Save'));
+        echo json_encode(array('response'=>'Successfully Saves'));
     }
 }
